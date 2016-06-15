@@ -1,0 +1,31 @@
+
+<!-- saved from url=(0064)https://cs.utm.utoronto.ca/~zingarod/108/cgi-bin/quiz-submit.cgi -->
+<html __fvdsurfcanyoninserted="1" class=" clickberry-extension clickberry-extension-standalone"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Reading Quiz: Submission</title><meta content="clickberry-extension-here"><style type="text/css"></style></head>
+<body marginwidth="5">
+
+<h1>Reading Quiz: Submission Results</h1>
+<p>Here is what you have submitted for your reading quiz. Please keep a copy of this page for your records.</p>
+<pre>Reading quiz number: 33
+Student number: 1000357071
+1. <p>In lecture, we studied one solution to the Maximum Segment Sum problem. It used three nested for-loops. As shown in the lecture slides, it does a lot of duplication of adding elements, and we can avoid some duplication by remembering the current sum and then adding one new element rather than adding all of the elements over again.</p>
+
+<p>For example, if we have just done <code>4-3+9</code> and found the answer to be 10, then we shouldn't duplicate all of that work again when calculating <code>4-3+9-5</code>; instead, we should just do <code>10-5</code> and get 5.</p>
+
+<p>Try to implement this better way of solving the maximum segment sum problem. You should have two for-loops in your solution (not three!).</p>
+
+def max_segment_sum(L):
+'''(list of int) -&gt; int
+Return maximum segment sum of L.
+'''
+max_so_far = 0
+
+for upper in range(len(L)):
+   sum = 0
+       for i in range(len(L), len(L+1):
+         sum = sum + L[i]
+       max_so_far = max(max_so_far, sum)
+return max_so_far
+</pre>
+
+
+</body></html>

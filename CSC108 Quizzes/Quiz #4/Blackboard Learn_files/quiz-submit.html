@@ -1,0 +1,31 @@
+
+<!-- saved from url=(0064)https://cs.utm.utoronto.ca/~zingarod/108/cgi-bin/quiz-submit.cgi -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Reading Quiz: Submission</title><style type="text/css"></style></head>
+<body marginwidth="5">
+
+<h1>Reading Quiz: Submission Results</h1>
+<p>Here is what you have submitted for your reading quiz. Please keep a copy of this page for your records.</p>
+<pre>Reading quiz number: 4
+Student number: 1000357071
+1. <p>Write an expression that is true exactly when <code>a</code> is less than <code>b</code> and <code>c</code> is equal to <code>d</code>. Assume that these four variables already exist (so all you are providing is an expression I could type at the <code>&gt;&gt;&gt;</code> shell prompt).</p>
+
+a &lt; b and c == d
+2. <p>Here is an interaction at the shell:</p><pre>&gt;&gt;&gt; a = False
+&gt;&gt;&gt; b = False
+&gt;&gt;&gt; a and b or True
+True 
+</pre>
+
+<p>Explain why the value of the expression at the bottom is <code>True</code>. How would you add parentheses to force the expression to evaluate to <code>False</code>?</p>
+
+The value of the expression is True because "a and b" is False (since both a and b are False). So when we evaluate False or True, we get True.
+In order to get False, we would have to do this:
+a and (b or True), which would do (b or True) first and get True, then it would do a and True i.e False and True and get False.
+
+3. <p>What did you find particularly difficult or confusing about the material you read? If nothing was difficult or confusing, tell us what you found most interesting. Please be as specific as possible: this is meant to help you focus on problematic areas, as well as help me make more meaningful lectures.</p>
+The only confusing part about this material is the not, and, or part. I do not understand how do they evaluate answers. Eg. why is False or True = True, and why is False and True = False? 
+
+</pre>
+
+
+</body></html>

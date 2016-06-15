@@ -1,0 +1,36 @@
+
+<!-- saved from url=(0064)https://cs.utm.utoronto.ca/~zingarod/108/cgi-bin/quiz-submit.cgi -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Reading Quiz: Submission</title><style type="text/css"></style></head>
+<body marginwidth="5">
+
+<h1>Reading Quiz: Submission Results</h1>
+<p>Here is what you have submitted for your reading quiz. Please keep a copy of this page for your records.</p>
+<pre>Reading quiz number: 26
+Student number: 1000357071
+1. <p>Download <a href="https://cs.utm.utoronto.ca/~zingarod/108/lecture26/fraction.py">fraction.py</a>. This is the fraction class discussed in today's readings. (I added docstrings in the style that we're using in the course.)</p>
+
+<p>From the shell, import the class:
+</p><pre>&gt;&gt;&gt; from fraction import Fraction
+</pre>
+and then create two <code>Fraction</code> objects referred to by <code>f1</code> and <code>f2</code>. Make <code>f1</code> refer to the <code>Fraction</code> with numerator 1 and denominator 2, and make <code>f2</code> refer to the <code>Fraction</code> with numerator 8 and denominator 12.<p></p>
+
+<p>Print <code>f2</code>. What happened to the <code>Fraction</code> that you created?</p>
+
+f2 = 2/3.
+The fraction created is reduced to simplest terms.
+2. <p>Type <code>f1 &lt; f2</code>. What is the result? Try comparing <code>f1</code> and <code>f2</code> using the other relational operators as well: <code>&lt;= == &gt; &gt;=</code>.</p>
+f1 &lt; f2 prints True
+f1 == f2 prints False
+f1 &gt; f2 prints False
+f1 &lt;= f2 prints True
+f1 &gt;- f2 prints False
+3. <p>Type <code>str(f1)</code>. What is the result? What method of <code>Fraction</code> gets called by <code>str</code>?</p>
+the result is '1/2'. 
+The def __repr__(self) (str representation) method gets called.
+
+4. <p>What did you find particularly difficult or confusing about the material you read? If nothing was difficult or confusing, tell us what you found most interesting. Please be as specific as possible: this is meant to help you focus on problematic areas, as well as help me make more meaningful lectures.</p>
+Nothing was hard or difficult. It is pretty easy to understand. 
+</pre>
+
+
+</body></html>

@@ -1,0 +1,102 @@
+
+/*Content Frame background color / text color / background image*/
+#contentFrame,
+#schemePreview, 
+body,  
+.topFrame,
+/*.breadcrumbs,*/
+.paneTabs ul li.active, 
+.paneTabs ul li,
+.wizardBody .containerWizard {
+    background: url(https://portal.utoronto.ca/themes/as_2012/images/bblearn_2011_bg.png) repeat 0 0;
+    background-color:#efede3;
+    color:#000000;
+}
+/*Content area background color / text color / background image */
+#contentArea,
+#schemePreviewBody,
+.container, .contentPane div.bottomRound b {        
+    background-color:#ffffff;
+    color:#444444;
+}
+
+/*Primary button background / text color*/
+#primaryButton, 
+input[type="submit"].submit,
+.mainButton a, .mainButton a:hover, .mainButton a:focus,
+.mainButton a, .actionBarMicro .mainButton a:hover, .actionBarMicro .mainButton a:focus,
+.rumble .mainButton > a, .rumble_top .mainButton > a:focus, 
+.rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus, 
+.rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus,
+.button-1, .button-1-img, .button-1:hover, .button-1-img:hover, .button-1:focus, .button-1-img:focus {
+}
+
+
+/*Top Frame Text Color */
+#topFrame, 
+div.topTabs div.topGlobalLinks ul li a.topLevel, 
+div.topTabs-compact div.topGlobalLinks ul li a.topLevel, 
+div.topTabs div.hotItems ul.hotLinks li a  {
+    color:#cccccc;
+}
+
+
+/*Top Frame Background Color / Background Image*/
+#topFrame, 
+.bgBanner {
+    background-image: url(https://portal.utoronto.ca/branding/_1_1/U-of-T-Learning-Portal-3A---outlines---05092012.gif);
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-color:#555555;
+	border-color:transparent;
+}
+div.topTabs-compact {
+    background:#555555;
+	border-color:transparent;
+}
+
+/*Top Tab Color/Background Color*/
+#topTab, 
+table.appTabs tbody tr td a, div.topTabs-compact table.appTabs tr td a,
+table.appTabs tbody tr td a:hover, div.topTabs-compact table.appTabs tr td a:hover,
+table.appTabs tbody tr td a:focus, div.topTabs-compact table.appTabs tr td a:focus {   
+    color:#efefef;
+    background-color:transparent;
+	border-color:transparent;
+}
+
+/*Top Tab Active Tab Color/Background Color*/
+#topTabActive, 
+table.appTabs tbody tr td.active a, 
+table.appTabs tbody tr td.active a:hover, 
+table.appTabs tbody tr td.active a:focus,
+div.topTabs-compact table.appTabs tr td.active a, 
+div.topTabs-compact table.appTabs tr td.active a:hover, 
+div.topTabs-compact table.appTabs tr td.active a:focus {
+    color:#fff4bf;
+    background-color:transparent;  
+	border-color:transparent;             
+}
+
+/*Module colors*/
+#moduleTitle, 
+.portlet h2, .portlet h2 span.reorder
+{
+    background-color:transparent;
+    color:#444444;
+}
+.portlet h2 a
+{
+    background-color: transparent;
+    color:#444444;
+}
+#moduleBorder, #moduleBody, 
+.portlet
+{
+    border-top-color: #cccccc;
+    border-left-color: #cccccc;
+    border-bottom-color: #cccccc;
+    border-right-color: #cccccc;
+    background-color:#efede3;
+    color:#444444;    
+}

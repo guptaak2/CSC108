@@ -1,0 +1,42 @@
+
+<!-- saved from url=(0064)https://cs.utm.utoronto.ca/~zingarod/108/cgi-bin/quiz-submit.cgi -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Reading Quiz: Submission</title><style type="text/css"></style></head>
+<body marginwidth="5">
+
+<h1>Reading Quiz: Submission Results</h1>
+<p>Here is what you have submitted for your reading quiz. Please keep a copy of this page for your records.</p>
+<pre>Reading quiz number: 9
+Student number: 1000357071
+1. <p>Today there is no reading, but I'd like you to seriously consider the question below. You should be able to answer such a question (or get close) at this point in the semester (after the week 3 lab on functions). An if-statement is not required and it is expected/good style here not to use one. If it helps, you might try using an if-statement at first and then use what we've learned about booleans to avoid using the if-statement.</p>
+
+<p>If you have great difficulty with this question, please don't wait: visit me in office hours, re-read course materials, try the labs again on your own, work on other examples, and so on.</p>
+
+<p>To visit a public pool, a person must be at least 13 years old or be accompanied by a parent (or both). Complete the following function (use the design recipe and include all design recipe steps). The first parameter is the person's age and the second indicates whether they are accompanied by a parent. The function should return <code>True</code> iff the person is allowed to visit the pool. Call your file <code>pool.py</code>.</p>
+
+<pre>def can_swim(age, brought_parent):
+  '''(int, bool) -&gt; bool
+  ...
+  '''
+</pre>
+
+<p>To test your program, download <a href="https://cs.utm.utoronto.ca/~zingarod/108/lecture9/test_pool.py">test_pool.py</a>, place it in the same directory as your <code>pool.py</code>, and run it. All tests should have the same expected and got values.</p>
+
+<p>Paste your <code>pool.py</code> below.</p>
+
+
+def can_swim (age, brought_parent):
+  '''(int, bool) -&gt; bool
+  Returns true iff  the person is allowed to visit the pool given age 
+  (at least 13 years old) or if they brought_parent.
+  &gt;&gt;&gt; can_swim (13, False)
+  True
+  &gt;&gt;&gt; can_swim (12, True)
+  True
+  '''
+  return age &gt;= 13 or brought_parent == True
+    
+
+</pre>
+
+
+</body></html>
